@@ -15,6 +15,8 @@ class CreateFornecedorsTable extends Migration
     {
         Schema::create('fornecedors', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('cnpj',14)->unique();
+            $table->string('rasaoSocial');
             $table->timestamps();
         });
     }
