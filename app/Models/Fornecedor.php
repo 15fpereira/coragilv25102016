@@ -8,6 +8,10 @@ class Fornecedor extends Model
 {
     protected $fillable = [
 
-        'cnpj'
+        'cnpj', 'telefone'
     ];
+    public function pedidos()
+    {
+        return $this->belongsToMany(Pedido::class);
+    }
 }

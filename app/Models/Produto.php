@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Models\Categoria;
+
 use Illuminate\Database\Eloquent\Model;
 
 class Produto extends Model
@@ -19,5 +21,6 @@ class Produto extends Model
     {
         return $this->belongsTo(Categoria::class);
     }
+
 
 }
