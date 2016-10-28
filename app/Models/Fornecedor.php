@@ -8,7 +8,7 @@ class Fornecedor extends Model
 {
     protected $fillable = [
 
-        'cnpj', 'telefone'
+        'cnpj', 'telefone', 'rasao'
     ];
     public function pedidos()
     {
