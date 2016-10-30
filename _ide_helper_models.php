@@ -14,7 +14,7 @@ namespace App\Models{
  *
  * @property integer $id
  * @property string $nome
- * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Produto[] $produto
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Produto[] $produtos
  * @method static \Illuminate\Database\Query\Builder|\App\Models\Categoria whereId($value)
  * @method static \Illuminate\Database\Query\Builder|\App\Models\Categoria whereNome($value)
  */

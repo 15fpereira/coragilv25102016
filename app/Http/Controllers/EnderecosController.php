@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class EnderecoController extends Controller
+class EnderecosController extends Controller
 {
     /**
      * Display a listing of the resource.
